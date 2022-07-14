@@ -45,6 +45,4 @@ const QuestList = [
         ],      
     },
 ];
-
-
 export default QuestList;
