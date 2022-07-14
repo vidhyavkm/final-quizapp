@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.app-wrapper{
+  background-color: aqua;
+  box-shadow: 3px 6px 40px;
+  min-width: 400px;
+  min-height: 500px;
+  padding: 30px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.quest-count {
+  color: aliceblue;
+  font-size: 30px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+  border: 3px solid white;
+  border-radius: 15px;
+  background-color: brown;
+  width:75% ;
+  margin: 20px auto;
+}
+.quest{
+  color: black;
+  border: 2px solid yellow;
+  background-color: aquamarine;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.answer-section-wrapper{
+  background-color: crimson;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.answer-list{
+  list-style: none;
+  width: 100%;
+  margin: 30px 0px 30px 0px ;
+  display: flex;
+}
+
+.answer-button{
+  width: 80%;
+  font-size: 24px;
+  color: gainsboro;
+  background-color: rebeccapurple;
+  border-radius: 15px;
+  padding: 5px;
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  margin: auto;
+}
+
+.next-button {
+  width: 50%;
+  font-size: 24px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  color: bisque;
+  background-color: darkmagenta;
+  border-radius: 15px;
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  margin: 30px auto;
+}
+
+.next-button:hover {
+  background-color: red;
+}
+
+.answer-button:hover {
+  background-color: darkgray;
+}
+
+button:focus {
+  outline: none;
+}
+
+.answer-button:active {
+  background-color: orange;
+}
+
+.completed {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: black;
+  margin: 40px auto;
+}
+
+.score-section {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: seagreen ;
+}
+
+.correct {
+  background-color: lightgreen;
+}
