@@ -44,7 +44,7 @@ Question {currentQuest + 1} of {QuestList.length}
   {QuestList[currentQuest].quest}
 </div>
     </div>
-    <div className = "answer-section-wrapper">{QuestList [currentQuest].answersList.map((answerOption) =>(
+    <div className = "answer-section-wrapper">{QuestList[currentQuest].answersList.map((answerOption) =>(
 <li className = "answer-list" key = {uuidv4()}>
 <button 
 disabled = {clicked}
